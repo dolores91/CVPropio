@@ -1,11 +1,19 @@
+body{
+    font-family:'Oxygen', sans-serif;
+}
+a{
+    text-decoration: none;
+}
 header{
-    background-color: #E5E5E5;
+    background-image: url(../img/fondo.jpg);
     text-align: center;
+    background-size: cover;
+}
+header img{
+    margin-top: 25px;
 }
 h1{
-    background-color: #C4C4C4;
     color:#005677;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 15px;
@@ -18,10 +26,9 @@ main{
     margin: 50px auto; 
 }
 footer{
-    background-color: #005677;
+    background-color: #527b8b;
     text-align: center;
-    font-family: Times New Roman;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: 17px;
@@ -33,16 +40,16 @@ footer{
 h2{
     background-color: #C4C4C4;
     color: #005677;
-    font-family:'Times New Roman', Times, serif; 
-    font-style: Bold;
+    
     font-size: 20px;
-    line-height: 17px;
+  
     line-height: 85%;
     text-align: Left;
     vertical-align: Top;
-   padding-top: 15px;
-   padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     letter-spacing: 8px;
+    padding-left: 10px;
 }
 
 .items{
@@ -51,7 +58,25 @@ h2{
 }
 ul{
     line-height: 30px;
+   
 }
 dd{
     line-height: 40px;
+  
+}
+nav{
+   height: 50px; 
+   
+}
+.barra{
+    text-align: right;
+    background-color: #527b8b;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: #C4C4C4;
+    padding-right: 70px;
+}
+i{
+   width: 40px;
+   
 }
